@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import numpy as np
 
 # Load the pre-trained model
-model = load_model('C:/Users/karan/Downloads/DL/Karan/model.h5')
+model = load_model('model.h5')
 
 # Define class names
 class_names = ['Cloudy', 'Desert', 'Green_Area', 'Water']
